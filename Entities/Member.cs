@@ -2,11 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Practice3.Entities.Base;
 using Practice3.Enums;
 
 namespace Practice3.Entities
 {
-    public class Member
+    public class Member : Thing
     {
         public required string Firstname { get; set; }
         public required string Lastname { get; set; }
